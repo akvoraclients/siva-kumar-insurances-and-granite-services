@@ -1,0 +1,46 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="charcoalGrad" x1="0" y1="0" x2="600" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#30343B" />
+      <stop offset="100%" stop-color="#1E2125" />
+    </linearGradient>
+    <linearGradient id="sandstoneGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C2A27C" />
+      <stop offset="100%" stop-color="#876D4E" />
+    </linearGradient>
+    <pattern id="graniteFlecks" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="12" r="1.5" fill="#FFFFFF" fill-opacity="0.12" />
+      <circle cx="28" cy="8" r="2" fill="#C2A27C" fill-opacity="0.25" />
+      <circle cx="18" cy="28" r="1.5" fill="#FFFFFF" fill-opacity="0.15" />
+      <circle cx="34" cy="24" r="1.2" fill="#C2A27C" fill-opacity="0.3" />
+      <circle cx="4" cy="36" r="1" fill="#FFFFFF" fill-opacity="0.1" />
+    </pattern>
+  </defs>
+
+  <!-- Base Slab -->
+  <rect width="600" height="400" rx="24" fill="url(#charcoalGrad)" />
+  <rect width="600" height="400" rx="24" fill="url(#graniteFlecks)" />
+
+  <!-- Natural Granite Slab Layers and Angles -->
+  <g transform="translate(300, 190)">
+    <!-- Back slab 3: Grey/White striation -->
+    <path d="M-130 -60L110 -110L140 30L-100 80Z" fill="#3D424B" stroke="#5C606E" stroke-width="1.5" />
+    
+    <!-- Middle slab 2: Natural Sandstone striation -->
+    <path d="M-110 -35L130 -85L160 55L-80 105Z" fill="url(#sandstoneGrad)" fill-opacity="0.85" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1.5" />
+    
+    <!-- Front slab 1: Deep Charcoal Mirror Polished Finish -->
+    <path d="M-90 -10L150 -60L180 80L-60 130Z" fill="#24272C" stroke="#C2A27C" stroke-width="2.5" />
+    <path d="M-80 -2L140 -48L168 70L-52 116Z" fill="url(#graniteFlecks)" fill-opacity="0.6" />
+
+    <!-- Polished Gloss Reflection Line -->
+    <path d="M-20 -30L60 90" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-opacity="0.4" />
+  </g>
+
+  <!-- Descriptive Tagline Badge in graphic -->
+  <rect x="170" y="325" width="260" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#C2A27C" stroke-width="1" />
+  <text x="300" y="347" text-anchor="middle" fill="#C2A27C" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="1">
+    HOSUR GRANITE SELECTION &amp; DELIVERY
+  </text>
+</svg>
+

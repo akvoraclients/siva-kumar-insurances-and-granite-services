@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F7F8FA;
+  --foreground: #30343B;
+  --primary-navy: #17324D;
+  --secondary-teal: #278C83;
+  --granite-sandstone: #C2A27C;
+  --charcoal: #30343B;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-feature-settings: "rlig" 1, "calt" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Accessible visible focus indicators */
+*:focus-visible {
+  outline: 2px solid #278C83;
+  outline-offset: 2px;
+}
+
+/* Ensure smooth interactive states without excessive animation */
+button, a {
+  transition-property: color, background-color, border-color, box-shadow, transform;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* iOS Safari font zoom prevention on inputs: 16px (1rem) minimum on mobile */
+@media (max-width: 640px) {
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+}

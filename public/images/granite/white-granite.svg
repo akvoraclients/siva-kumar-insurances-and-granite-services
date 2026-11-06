@@ -1,0 +1,48 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="whiteBase" x1="0" y1="0" x2="600" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="60%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <pattern id="whiteMinerals" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="18" r="1.8" fill="#334155" fill-opacity="0.25" />
+      <circle cx="34" cy="12" r="1.2" fill="#64748B" fill-opacity="0.3" />
+      <circle cx="22" cy="45" r="2.2" fill="#991B1B" fill-opacity="0.35" />
+      <circle cx="48" cy="38" r="1.5" fill="#475569" fill-opacity="0.25" />
+      <circle cx="8" cy="52" r="1.0" fill="#1E293B" fill-opacity="0.3" />
+      <circle cx="54" cy="8" r="1.6" fill="#C2A27C" fill-opacity="0.4" />
+    </pattern>
+    <pattern id="greyVeins" width="160" height="120" patternUnits="userSpaceOnUse">
+      <path d="M5 20 C 40 40, 80 10, 150 50" stroke="#64748B" stroke-opacity="0.18" stroke-width="2.5" fill="none" stroke-linecap="round" />
+      <path d="M20 70 C 60 90, 100 60, 145 110" stroke="#94A3B8" stroke-opacity="0.22" stroke-width="1.8" fill="none" stroke-linecap="round" />
+      <circle cx="70" cy="35" r="2.5" fill="#7F1D1D" fill-opacity="0.3" />
+      <circle cx="120" cy="85" r="1.8" fill="#475569" fill-opacity="0.2" />
+    </pattern>
+    <radialGradient id="softLight" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#E2E8F0" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Slab Background -->
+  <rect width="600" height="400" rx="16" fill="url(#whiteBase)" />
+  <rect width="600" height="400" rx="16" fill="url(#whiteMinerals)" />
+  <rect width="600" height="400" rx="16" fill="url(#greyVeins)" />
+  <rect width="600" height="400" rx="16" fill="url(#softLight)" />
+
+  <!-- Diagonal Polish Sheen -->
+  <path d="M100 450 L500 -50 L600 -50 L200 450 Z" fill="#FFFFFF" fill-opacity="0.3" />
+
+  <!-- Slab Border Frame -->
+  <rect x="1" y="1" width="598" height="398" rx="15" stroke="#CBD5E1" stroke-width="1.5" />
+
+  <!-- Stone Identification Badge -->
+  <g transform="translate(24, 336)">
+    <rect width="195" height="40" rx="8" fill="#FFFFFF" fill-opacity="0.9" stroke="#CBD5E1" stroke-width="1" />
+    <circle cx="18" cy="20" r="5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.5" />
+    <text x="32" y="19" fill="#1E293B" font-family="system-ui, sans-serif" font-size="12" font-weight="700">White &amp; Light Granite</text>
+    <text x="32" y="31" fill="#64748B" font-family="system-ui, sans-serif" font-size="9" font-weight="500">Luminous &amp; elegant patterns</text>
+  </g>
+</svg>
+

@@ -1,0 +1,897 @@
+{
+  "brand": {
+    "name": "SIVA INSURANCES & GRANITE SERVICES",
+    "owner": "Siva Kumar",
+    "location": "Hosur, Tamil Nadu",
+    "tagline": "Insurance Assistance & Granite Solutions",
+    "positioning": "A professional business providing insurance-related assistance and granite selection and purchase coordination with established granite companies and showrooms in Hosur, Tamil Nadu."
+  },
+  "nav": {
+    "home": "Home",
+    "insurance": "Insurance Services",
+    "granites": "Siva Granites",
+    "catalogue": "Granite Catalogue",
+    "about": "About",
+    "contact": "Contact",
+    "menu": "Menu",
+    "closeMenu": "Close Menu"
+  },
+  "common": {
+    "callNow": "Call",
+    "whatsapp": "WhatsApp",
+    "contactPending": "Contact details pending launch",
+    "enquireNow": "Enquire Online",
+    "viewDetails": "View Details",
+    "getQuotation": "Request Quotation",
+    "contactOwner": "Contact Siva Kumar",
+    "learnMore": "Learn More",
+    "language": "Language",
+    "disclaimer": "Insurance Disclosure",
+    "addressLabel": "Office Location",
+    "phoneLabel": "Phone Number",
+    "emailLabel": "Email Address",
+    "businessHours": "Service Enquiries",
+    "monSat": "Monday – Saturday: Online & Phone Enquiries",
+    "placeholderNotice": "Official telephone and WhatsApp details will be published upon launch. Inquiries can be submitted via the online form below.",
+    "submitting": "Submitting...",
+    "submissionSuccess": "Your enquiry has been submitted successfully. Siva Kumar will get in touch with you shortly.",
+    "submissionError": "Failed to submit your enquiry. Please try again or reach out directly.",
+    "networkError": "Network error. Please check your internet connection and try again.",
+    "validationError": "Please fill in all required fields correctly.",
+    "tryAgain": "Try Again",
+    "requiredField": "This field is required",
+    "submitAnother": "Submit Another Enquiry"
+  },
+  "home": {
+    "hero": {
+      "badge": "Siva Kumar | Based in Hosur",
+      "ownerName": "Siva Kumar",
+      "ownerRole": "Founder & Business Owner",
+      "ownerTitle": "Founder / Business Owner • SIVA INSURANCES & GRANITE SERVICES",
+      "headline": "Insurance Assistance & Granite Solutions Under One Roof",
+      "description": "SIVA INSURANCES & GRANITE SERVICES, founded and managed by Siva Kumar in Hosur, provides personal assistance for insurance agency services and direct granite sourcing and purchase coordination.",
+      "directConsultation": "Direct Owner Consultation",
+      "noMiddlemen": "Direct Guidance • Transparent Coordination",
+      "experienceBadge": "~18 Years Experience",
+      "coverageInsurance": "Insurance services in Hosur & surrounding areas",
+      "coverageGranite": "Granite coordination across Tamil Nadu",
+      "ctaInsurance": "Explore Insurance Services",
+      "ctaGranite": "Explore Granite Solutions",
+      "ctaContact": "Contact Siva Kumar",
+      "ownerAlt": "Siva Kumar, Founder & Business Owner of SIVA INSURANCES & GRANITE SERVICES in Hosur"
+    },
+    "intro": {
+      "badge": "Welcome",
+      "title": "Welcome to SIVA INSURANCES & GRANITE SERVICES",
+      "content": "SIVA INSURANCES & GRANITE SERVICES, managed by Siva Kumar in Hosur, brings together insurance assistance and granite selection and purchase coordination through two dedicated service divisions.",
+      "subcontent": "Customers can connect with one trusted business for either service, receiving personalized guidance and transparent coordination from start to finish."
+    },
+    "services": {
+      "badge": "Two Core Divisions",
+      "title": "Our Two Business Services",
+      "subtitle": "Discover our two dedicated service offerings tailored to your personal and project requirements.",
+      "insurance": {
+        "title": "Insurance Services",
+        "description": "Get personal assistance with insurance enquiries, policy applications, renewals and customer servicing.",
+        "relationshipsLabel": "Insurance Representation (Agency)",
+        "relationships": [
+          "LIC (Life Insurance)",
+          "The New India Assurance Co. Ltd. (General Insurance)",
+          "Star Health and Allied Insurance (Health Insurance)"
+        ],
+        "features": [
+          "Policy enquiry assistance",
+          "Application support",
+          "Renewal assistance",
+          "Claims assistance",
+          "Policy information updates"
+        ],
+        "cta": "Explore Insurance Services",
+        "portalNotice": "All applications and payments are processed directly through the respective official insurance company portals."
+      },
+      "granites": {
+        "title": "Siva Granites",
+        "description": "Explore granite varieties from different granite companies and showrooms in Hosur, with assistance for selection, quotations, orders and delivery coordination.",
+        "coverageLabel": "Granite Network in Hosur",
+        "coverage": "Coordinating with 20–25 established granite companies and showrooms",
+        "features": [
+          "Granite variety exploration",
+          "Colour and finish comparison",
+          "Square-foot quotation assistance",
+          "Order coordination",
+          "Payment coordination",
+          "Transportation and delivery coordination"
+        ],
+        "cta": "Explore Granite Services",
+        "pricingNotice": "Quotations depend on required dimensions, thickness, surface finish, and supplier batch availability."
+      }
+    },
+    "process": {
+      "badge": "Customer Journey",
+      "title": "How Our Services Work",
+      "subtitle": "A straightforward and transparent working approach for insurance guidance and granite coordination.",
+      "insuranceTitle": "Insurance Guidance Process",
+      "insuranceSteps": [
+        {
+          "step": "01",
+          "title": "Share Requirements",
+          "desc": "Share your insurance requirements, whether for life, health, vehicle, or commercial property coverage."
+        },
+        {
+          "step": "02",
+          "title": "Discuss Options",
+          "desc": "Discuss suitable insurance products and understand key coverage details, terms, and premiums."
+        },
+        {
+          "step": "03",
+          "title": "Official Application",
+          "desc": "Complete the application through the respective insurance company's official portal and verified procedures."
+        },
+        {
+          "step": "04",
+          "title": "Servicing & Renewal",
+          "desc": "Receive continued assistance with policy renewals, claim documentation guidance, and information updates."
+        }
+      ],
+      "graniteTitle": "Granite Selection & Order Process",
+      "graniteSteps": [
+        {
+          "step": "01",
+          "title": "Share Requirements",
+          "desc": "Share your granite requirements, application areas (flooring, kitchen, elevation), and estimated dimensions."
+        },
+        {
+          "step": "02",
+          "title": "Explore Varieties",
+          "desc": "Explore popular South Indian granite varieties, colours, and surface finishes across Hosur showrooms."
+        },
+        {
+          "step": "03",
+          "title": "Obtain Quotation",
+          "desc": "Obtain a transparent per-square-foot quotation based on verified supplier rates and required quantities."
+        },
+        {
+          "step": "04",
+          "title": "Order & Delivery",
+          "desc": "Coordinate order placement, payment conditions, and direct transportation to your site across Tamil Nadu."
+        }
+      ]
+    },
+    "whyUs": {
+      "badge": "Our Working Approach",
+      "title": "Why Contact SIVA INSURANCES & GRANITE SERVICES?",
+      "subtitle": "Built on direct accountability, local supplier access, and personal attention to every customer.",
+      "points": [
+        {
+          "title": "Personal Assistance",
+          "desc": "Direct interaction with Siva Kumar to understand individual customer requirements without intermediaries or call centers."
+        },
+        {
+          "title": "Multiple Service Options",
+          "desc": "Access life, general, and health insurance guidance along with natural stone granite coordination through one trusted local contact."
+        },
+        {
+          "title": "Supplier Coordination",
+          "desc": "Active coordination with 20–25 established granite companies and showrooms in Hosur to compare choices and negotiate fair rates."
+        },
+        {
+          "title": "Complete Service Coordination",
+          "desc": "End-to-end guidance from initial enquiry to policy renewal support or safe granite site delivery across Tamil Nadu."
+        }
+      ]
+    },
+    "areas": {
+      "badge": "Service Coverage",
+      "title": "Business Service Areas",
+      "subtitle": "Serving customers locally in Hosur and across Tamil Nadu according to service category.",
+      "insuranceCard": {
+        "title": "Insurance Services",
+        "location": "Hosur and Surrounding Areas",
+        "desc": "Personal insurance consultation and policy assistance primarily focused on customers in Hosur and surrounding areas."
+      },
+      "graniteCard": {
+        "title": "Siva Granites",
+        "location": "Serving Customers Across Tamil Nadu",
+        "desc": "Granite variety selection and showroom coordination in Hosur, serving customers across Tamil Nadu."
+      },
+      "officeNote": "Note: SIVA INSURANCES & GRANITE SERVICES operates from Sai Venture Layout, Near Sathyanarayana Temple, Hosur - 635109, Tamil Nadu, India."
+    },
+    "aboutOwner": {
+      "badge": "Leadership",
+      "title": "Meet Siva Kumar",
+      "subtitle": "Siva Kumar | Based in Hosur",
+      "content": "Siva Kumar manages SIVA INSURANCES & GRANITE SERVICES in Hosur, providing insurance-related assistance and coordinating granite selection and purchases for customers. With personal attention to every enquiry, he assists clients in choosing suitable insurance policies through official insurer portals and coordinates granite orders across Hosur's established companies and showrooms.",
+      "cta": "Learn More About Us"
+    },
+    "cta": {
+      "badge": "Get Started",
+      "title": "Looking for Insurance Assistance or Granite Solutions?",
+      "desc": "Tell us what you need. Contact SIVA INSURANCES & GRANITE SERVICES and share your requirements with Siva Kumar for personalized support.",
+      "btnInsurance": "Insurance Enquiry",
+      "btnGranite": "Granite Enquiry",
+      "btnContact": "Contact Us"
+    }
+  },
+  "contact": {
+    "title": "Contact SIVA INSURANCES & GRANITE SERVICES",
+    "subtitle": "Reach out directly via our online enquiry form. Phone and WhatsApp direct channels will be active shortly.",
+    "directChannels": "Direct Contact Channels",
+    "quickAssistance": "Assistance",
+    "formTitle": "Online Enquiry Form",
+    "formDesc": "Online enquiries are handled securely and delivered directly to Siva Kumar.",
+    "submitting": "Submitting enquiry...",
+    "submissionSuccess": "Thank you! Your enquiry has been received. Siva Kumar will contact you shortly.",
+    "submissionError": "There was a problem submitting your enquiry. Please try again or reach out directly.",
+    "networkError": "Network connection error. Please check your network and try again.",
+    "validationError": "Please provide your name and a valid phone number.",
+    "tryAgain": "Try Again",
+    "submitAnother": "Submit Another Enquiry",
+    "whatsappInsurance": "Hello Siva Kumar, I would like to enquire about insurance services.",
+    "whatsappGranite": "Hello Siva Kumar, I would like to enquire about granite varieties and quotations.",
+    "whatsappGeneral": "Hello Siva Kumar, I am contacting you through the SIVA INSURANCES & GRANITE SERVICES website."
+  },
+  "insurance": {
+    "title": "Insurance Services",
+    "subtitle": "Personal assistance with policy selection, renewals, and claims documentation in Hosur and surrounding areas.",
+    "category": "Insurance Agency Services",
+    "badge": "Insurance Division",
+    "portalNotice": "All applications and payments are processed directly through the respective official insurance company portals.",
+    "learnMore": "Explore Insurance Services",
+    "hero": {
+      "badge": "Siva Kumar | Based in Hosur",
+      "heading": "Insurance Assistance You Can Reach Out For",
+      "description": "Siva Kumar provides personal assistance for insurance enquiries, policy applications, renewals and policyholder servicing through his insurance agency relationships.",
+      "location": "Hosur and surrounding areas.",
+      "experienceStat": "~18 Years",
+      "experienceLabel": "Combined Professional Experience",
+      "ctaEnquiry": "Submit an Insurance Enquiry",
+      "ctaContact": "Contact Us"
+    },
+    "companies": {
+      "badge": "Agency Representation",
+      "title": "Our Insurance Services",
+      "subtitle": "Personal guidance and official portal application assistance for three leading insurance institutions.",
+      "lic": {
+        "fullName": "Life Insurance Corporation of India (LIC)",
+        "shortName": "LIC",
+        "category": "Life Insurance",
+        "description": "Assistance with LIC insurance enquiries, policy application procedures and existing policyholder requirements.",
+        "services": [
+          "Policy enquiries",
+          "Application assistance",
+          "Renewal support",
+          "Claims assistance",
+          "Policy information updates"
+        ]
+      },
+      "newIndia": {
+        "fullName": "The New India Assurance Co. Ltd.",
+        "shortName": "New India Assurance",
+        "category": "General Insurance",
+        "description": "Assistance with New India Assurance enquiries, relevant policy application procedures and policyholder servicing.",
+        "services": [
+          "Insurance enquiries",
+          "Application assistance",
+          "Renewal support",
+          "Claims assistance",
+          "Policy information updates"
+        ]
+      },
+      "starHealth": {
+        "fullName": "Star Health and Allied Insurance",
+        "shortName": "Star Health Insurance",
+        "category": "Health Insurance",
+        "description": "Assistance with Star Health insurance enquiries, application procedures and existing policyholder requirements.",
+        "services": [
+          "Health insurance enquiries",
+          "Application assistance",
+          "Renewal support",
+          "Claims assistance",
+          "Policy information updates"
+        ]
+      },
+      "portalNotice": "All applications and payments are processed directly through the respective official insurance company portals. SIVA INSURANCES & GRANITE SERVICES is an independent service firm and does not underwrite policies or hold customer premium funds."
+    },
+    "servicesProvided": {
+      "badge": "Scope of Assistance",
+      "title": "How We Assist Our Customers",
+      "subtitle": "Transparent, direct advisory support across every stage of your insurance requirements.",
+      "items": [
+        {
+          "id": "new-policy",
+          "title": "New Policy Enquiries",
+          "desc": "Discussing individual, family, or commercial insurance requirements to help you identify suitable policy options from LIC, New India Assurance, or Star Health."
+        },
+        {
+          "id": "application",
+          "title": "Policy Application Assistance",
+          "desc": "Step-by-step assistance in accurately completing proposal forms and submitting applications directly on the respective insurer's official portal."
+        },
+        {
+          "id": "renewal",
+          "title": "Policy Renewal Support",
+          "desc": "Timely reminders, premium receipt guidance, and official online payment assistance to ensure uninterrupted insurance coverage."
+        },
+        {
+          "id": "claims",
+          "title": "Claims Assistance",
+          "desc": "Clear guidance on required documentation, claim intimation procedures, and portal submission for hospitalization, maturity, or damage claims."
+        },
+        {
+          "id": "updates",
+          "title": "Policy Information Updates",
+          "desc": "Assistance with official requests for address modifications, contact details updates, and nominee endorsements in existing policies."
+        },
+        {
+          "id": "existing-support",
+          "title": "Existing Customer Support",
+          "desc": "Continuing local support for any policy-related questions, status enquiries, or servicing needs in Hosur and surrounding areas."
+        }
+      ]
+    },
+    "process": {
+      "badge": "Transparent Workflow",
+      "title": "How the Insurance Process Works",
+      "subtitle": "A straightforward 4-step consultation process with complete transparency.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Understand Customer Requirements",
+          "desc": "We listen to your specific coverage requirements—whether life protection, family health coverage, or general property insurance."
+        },
+        {
+          "step": "02",
+          "title": "Explain Relevant Insurance Information",
+          "desc": "We explain key terms, policy benefits, exclusions, and premium illustrations in plain language so you make well-informed decisions."
+        },
+        {
+          "step": "03",
+          "title": "Complete Application Through Official Insurer Process",
+          "desc": "The application is securely submitted directly through the official insurer portal, ensuring verified documentation and official receipts."
+        },
+        {
+          "step": "04",
+          "title": "Provide Appropriate Policyholder Support",
+          "desc": "Receive ongoing assistance with renewal dates, policy servicing, and documentation support whenever claims arise."
+        }
+      ],
+      "disclaimer": "Important Disclosure: Policy issuance, underwriting, premiums, benefits, terms, conditions, and claims decisions are strictly controlled by the respective insurance company (LIC, The New India Assurance Co. Ltd., or Star Health and Allied Insurance) and subject to its regulatory terms. SIVA INSURANCES & GRANITE SERVICES acts as a service facilitator and insurance agent, not an insurance underwriter."
+    },
+    "experience": {
+      "badge": "Professional Experience",
+      "title": "Approximately 18 Years of Combined Professional Experience",
+      "supporting": "Bringing together experience in insurance-related services, customer relationships and granite selection and purchase coordination."
+    },
+    "faq": {
+      "badge": "Common Enquiries",
+      "title": "Frequently Asked Questions",
+      "subtitle": "Clear, factual answers regarding our insurance assistance services.",
+      "items": [
+        {
+          "q": "Which insurance companies does Siva Kumar work with?",
+          "a": "Siva Kumar provides insurance agency assistance representing Life Insurance Corporation of India (LIC) for life insurance, The New India Assurance Co. Ltd. for general insurance, and Star Health and Allied Insurance for health insurance."
+        },
+        {
+          "q": "Where are insurance assistance services available?",
+          "a": "Insurance assistance services are primarily provided for customers residing in Hosur and surrounding areas, allowing for direct, personalized coordination."
+        },
+        {
+          "q": "Can I enquire about a new insurance policy?",
+          "a": "Yes. You can enquire about new life, health, motor, or property insurance policies. Siva Kumar will discuss suitable options and explain terms before assisting you with the official insurer application."
+        },
+        {
+          "q": "Can existing policyholders receive renewal assistance?",
+          "a": "Yes. Existing policyholders of LIC, New India Assurance, and Star Health Insurance can receive assistance with renewal premium payments and official receipt generation."
+        },
+        {
+          "q": "Can I request assistance with an insurance claim?",
+          "a": "Yes. We assist policyholders with understanding required claim documents, completing forms, and submitting them through the appropriate official insurer procedures. Final claim decisions and settlements rest entirely with the respective insurance company."
+        },
+        {
+          "q": "How are insurance applications submitted?",
+          "a": "All insurance applications and premium payments are processed directly through the respective official insurance company portals. SIVA INSURANCES & GRANITE SERVICES does not collect or hold premium funds directly."
+        },
+        {
+          "q": "Can I request assistance with policy information updates?",
+          "a": "Yes. We help policyholders prepare and submit official requests for contact updates, address changes, and nominee modifications to their respective insurance company."
+        }
+      ]
+    },
+    "enquiry": {
+      "badge": "Direct Consultation",
+      "title": "Have an Insurance Enquiry?",
+      "description": "Share your requirements and Siva Kumar will contact you.",
+      "statusBadge": "Online Consultation",
+      "statusNotice": "Online enquiries are active and delivered directly to Siva Kumar.",
+      "nameLabel": "Your Full Name",
+      "namePlaceholder": "Enter your name",
+      "phoneLabel": "Mobile Number",
+      "phonePlaceholder": "Enter 10-digit mobile number",
+      "companyLabel": "Insurance Company",
+      "companyOptions": [
+        "Life Insurance Corporation of India (LIC)",
+        "The New India Assurance Co. Ltd.",
+        "Star Health and Allied Insurance",
+        "Not sure / Need guidance"
+      ],
+      "categoryLabel": "Enquiry Category",
+      "categoryOptions": [
+        "New Policy",
+        "Policy Renewal",
+        "Claims Assistance",
+        "Policy Information Update",
+        "General Enquiry"
+      ],
+      "locationLabel": "Your Location",
+      "locationPlaceholder": "e.g. Hosur, surrounding areas",
+      "messageLabel": "Message / Specific Requirements",
+      "messagePlaceholder": "Tell us about your coverage requirements or existing policy details...",
+      "privacyNotice": "Privacy Note: SIVA INSURANCES & GRANITE SERVICES respects your privacy. We do not request Aadhaar numbers, bank passwords, medical records, or sensitive document uploads on this website.",
+      "submitBtn": "Submit Insurance Enquiry",
+      "submitBtnDisabled": "Submitting Insurance Enquiry...",
+      "submitting": "Submitting enquiry...",
+      "submissionSuccess": "Thank you! Your insurance enquiry has been submitted successfully. Siva Kumar will contact you directly.",
+      "submissionError": "Unable to submit your insurance enquiry. Please check your connection and try again.",
+      "networkError": "Network error occurred. Please verify your internet connection and try again.",
+      "validationError": "Please provide your name and a valid mobile number.",
+      "tryAgain": "Try Again",
+      "submitAnother": "Submit Another Enquiry"
+    },
+    "cta": {
+      "badge": "Get in Touch",
+      "title": "Need Assistance With Your Insurance Requirements?",
+      "description": "Share your enquiry with SIVA INSURANCES & GRANITE SERVICES for personal assistance.",
+      "btnEnquiry": "Submit an Insurance Enquiry",
+      "btnContact": "Contact Us"
+    }
+  },
+  "granites": {
+    "title": "SIVA GRANITES",
+    "subtitle": "Coordinating with 20–25 established granite companies and showrooms in Hosur for customers across Tamil Nadu.",
+    "category": "Granite Coordination",
+    "badge": "Granite Coordination",
+    "catalogueTitle": "Granite Varieties & Finishes",
+    "pricingNotice": "Rates per sq. ft. vary based on thickness, dimensions, surface finish, and supplier batch availability. Contact Siva Kumar directly for current verified quotations.",
+    "learnMore": "Explore Granite Varieties",
+    "hero": {
+      "badge": "Siva Kumar | Based in Hosur",
+      "heading": "Find the Right Granite for Your Space",
+      "description": "Siva Granites helps customers explore granite varieties from different granite companies and showrooms in Hosur, with assistance in selection, quotations, purchase coordination and delivery across Tamil Nadu.",
+      "highlight1": "Working with approximately 20–25 granite companies and showrooms in Hosur.",
+      "highlight2": "Serving customers across Tamil Nadu.",
+      "ctaEnquiry": "Request a Granite Quotation",
+      "ctaCatalogue": "Explore Granite Varieties",
+      "ctaCatalogueSub": "Browse illustrative variety styles"
+    },
+    "intro": {
+      "badge": "Granite Selection & Coordination",
+      "heading": "Granite Selection Made Easier",
+      "description": "Choosing the right granite involves comparing different colours, surface finishes, supplier options and prices. Siva Kumar helps customers explore available options from granite companies and showrooms in Hosur and coordinate the purchasing process.",
+      "points": [
+        {
+          "title": "Personal Customer Assistance",
+          "desc": "Direct guidance from Siva Kumar tailored to your specific architectural or residential requirements."
+        },
+        {
+          "title": "Multiple Supplier Options",
+          "desc": "Access to a broad network of Hosur granite companies and showrooms without being tied to a single vendor."
+        },
+        {
+          "title": "Selection Guidance",
+          "desc": "Assistance in evaluating slab colours, pattern consistency, and appropriate finishes for your intended usage."
+        },
+        {
+          "title": "Square-Foot Quotation Coordination",
+          "desc": "Clear, transparent per-square-foot rate coordination directly from verified supplier options."
+        },
+        {
+          "title": "Purchase & Delivery Coordination",
+          "desc": "Supervision of order dispatch and reliable logistics directly to your site across Tamil Nadu."
+        }
+      ]
+    },
+    "varieties": {
+      "badge": "Visual Exploration",
+      "heading": "Explore Different Granite Styles",
+      "subtitle": "Explore natural stone varieties and surface textures available through Hosur's granite network.",
+      "disclaimerTitle": "Important Note on Natural Stone Variations",
+      "disclaimer": "Granite colours, patterns, finishes and availability may vary between suppliers and individual stone batches. Final selection should be confirmed with the supplier.",
+      "categories": [
+        {
+          "id": "black",
+          "name": "Black Granite",
+          "tag": "Classic & Dense",
+          "description": "Timeless, dense black granite varieties offering sleek aesthetics and high durability for countertops and flooring.",
+          "finishes": "Available in Polished, Honed, and Leather finishes",
+          "image": "/images/granite/black-granite.svg",
+          "alt": "Black granite slab sample with polished finish"
+        },
+        {
+          "id": "white",
+          "name": "White & Light Granite",
+          "tag": "Bright & Elegant",
+          "description": "Bright, light-toned granite varieties that create open, luminous interior spaces and elegant feature walls.",
+          "finishes": "Available in Polished and Honed finishes",
+          "image": "/images/granite/white-granite.svg",
+          "alt": "White and light natural granite sample"
+        },
+        {
+          "id": "grey",
+          "name": "Grey Granite",
+          "tag": "Versatile & Durable",
+          "description": "Versatile medium and dark grey granite with subtle crystalline patterns, well suited for high-traffic areas.",
+          "finishes": "Available in Polished, Flamed, and Leather finishes",
+          "image": "/images/granite/grey-granite.svg",
+          "alt": "Grey granite stone surface with crystalline mineral flecks"
+        },
+        {
+          "id": "brown",
+          "name": "Brown Granite",
+          "tag": "Warm & Earthy",
+          "description": "Warm, earthy brown and tan shades with rich natural mineral formations for warm interior accents.",
+          "finishes": "Available in Polished and Antique Leather finishes",
+          "image": "/images/granite/brown-granite.svg",
+          "alt": "Brown and tan natural granite stone texture"
+        },
+        {
+          "id": "red",
+          "name": "Red & Natural Tones",
+          "tag": "Distinctive & Bold",
+          "description": "Vibrant deep red, pink, and multi-colour natural granite stones creating bold architectural statements.",
+          "finishes": "Available in Polished and Flamed finishes",
+          "image": "/images/granite/red-granite.svg",
+          "alt": "Red and multi-colour natural granite stone sample"
+        },
+        {
+          "id": "finishes",
+          "name": "Different Surface Finishes",
+          "tag": "Surface Treatments",
+          "description": "Granite can be finished in multiple surface textures including high-gloss Polished, tactile Leather, non-slip Flamed, and matte Honed.",
+          "finishes": "Polished • Leather • Flamed • Honed",
+          "image": "/images/granite/granite-finishes.svg",
+          "alt": "Comparison of granite surface finishes: Polished, Leather, Flamed, Honed"
+        }
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "How We Help You",
+      "subtitle": "Comprehensive granite assistance from initial stone selection to doorstep delivery coordination.",
+      "items": [
+        {
+          "id": "selection",
+          "title": "A. Granite Selection Assistance",
+          "desc": "Help customers explore different granite colours, patterns, and surface finishes tailored to their aesthetic and durability requirements."
+        },
+        {
+          "id": "supplier",
+          "title": "B. Supplier Coordination",
+          "desc": "Coordinate with different granite companies and showrooms in Hosur to locate suitable slabs and verify availability."
+        },
+        {
+          "id": "quotation",
+          "title": "C. Square-Foot Quotation Assistance",
+          "desc": "Help customers understand the required material quantity and obtain transparent per-square-foot quotations from suppliers."
+        },
+        {
+          "id": "order",
+          "title": "D. Order Coordination",
+          "desc": "Coordinate order confirmation, specification details, cutting preferences, and supplier communication throughout."
+        },
+        {
+          "id": "payment",
+          "title": "E. Payment Coordination",
+          "desc": "Coordinate payment procedures according to the customer's and supplier's mutually agreed financial terms."
+        },
+        {
+          "id": "delivery",
+          "title": "F. Transportation & Delivery Coordination",
+          "desc": "Coordinate reliable delivery arrangements depending on the customer's location, supplier location, and specific order volume."
+        }
+      ]
+    },
+    "process": {
+      "badge": "Working Process",
+      "heading": "From Selection to Delivery",
+      "subtitle": "A clear four-step coordination process to simplify your granite purchase.",
+      "note": "Final prices, slab availability, and delivery terms are confirmed directly with the respective supplier.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Share Your Requirements",
+          "desc": "Understand the customer's granite preferences, intended usage (flooring, countertops, elevation), site location, and approximate quantity."
+        },
+        {
+          "step": "02",
+          "title": "Explore Granite Options",
+          "desc": "Explore varieties and compare colours, patterns, and finishes through available supplier options and showroom visits in Hosur."
+        },
+        {
+          "step": "03",
+          "title": "Quotation & Order Confirmation",
+          "desc": "Obtain relevant supplier pricing, prepare transparent square-foot quotations, and coordinate formal order confirmation."
+        },
+        {
+          "step": "04",
+          "title": "Payment & Delivery Coordination",
+          "desc": "Coordinate agreed payment schedules and arrange direct vehicle transport to your site across Tamil Nadu."
+        }
+      ]
+    },
+    "sqftGuide": {
+      "badge": "Quantity Guide",
+      "heading": "How Much Granite Do You Need?",
+      "subtitle": "Understanding square-foot requirements to receive accurate quotations and avoid material shortfalls.",
+      "method1Title": "Method 1 – Customer Already Knows the Quantity",
+      "method1Desc": "Some customers or contractors already have architectural drawings or measured takeoffs with an exact square footage requirement.",
+      "method1ExampleLabel": "Direct Quantity Example",
+      "method1Example": "Required area: 500 sq. ft. You can directly share this quantity on our enquiry form for immediate quotation coordination.",
+      "method2Title": "Method 2 – Measurement Assistance",
+      "method2Desc": "If you need help determining the required area, calculate each room or surface using basic length and width dimensions:",
+      "formulaLabel": "Basic Calculation Formula",
+      "formula": "Area = Length × Width",
+      "method2ExampleLabel": "Dimension Example",
+      "method2Example": "Length = 20 ft, Width = 15 ft → Area = 300 sq. ft. For multiple rooms or staircases, each area can be calculated separately and combined.",
+      "wastageNoticeTitle": "Important Note on Cutting, Layout & Wastage Allowance",
+      "wastageNoticeDesc": "Actual material requirements may differ from simple mathematical area due to slab cutting, edge profiling, pattern matching, breakage margin, and installation layout. The final purchase quantity should always be verified with your contractor, installer, and supplier before placing an order."
+    },
+    "supplierNetwork": {
+      "badge": "Local Presence",
+      "heading": "Access to Multiple Granite Companies in Hosur",
+      "subtitle": "Hosur is one of India's premier natural stone processing hubs. We leverage this direct proximity for your benefit.",
+      "description": "Siva Kumar coordinates with approximately 20–25 established granite companies and showrooms in Hosur. Rather than being limited to a single showroom's catalog, customers benefit from comprehensive local market access.",
+      "benefits": [
+        {
+          "title": "Explore Multiple Granite Options",
+          "desc": "Review a diverse spectrum of colours, slab thicknesses, and natural patterns across multiple yards."
+        },
+        {
+          "title": "Compare Available Varieties",
+          "desc": "Evaluate stone quality, hardness, and grain consistency across different regional sources."
+        },
+        {
+          "title": "Understand Supplier Quotations",
+          "desc": "Compare transparent square-foot pricing from different showrooms to make informed, value-driven decisions."
+        },
+        {
+          "title": "Coordinate Showroom Visits",
+          "desc": "Visit Hosur granite yards accompanied by Siva Kumar when you want to inspect actual stone lots in person."
+        },
+        {
+          "title": "Select Based on Customer Requirements",
+          "desc": "Choose stone tailored to your specific architectural layout, durability demands, and budget parameters."
+        }
+      ],
+      "disclaimer": "SIVA INSURANCES & GRANITE SERVICES coordinates with independent granite companies and showrooms in Hosur. SIVA INSURANCES & GRANITE SERVICES does not own granite quarries or processing factories, and supplier names are presented factually without unverified endorsement claims."
+    },
+    "faq": {
+      "badge": "Common Questions",
+      "heading": "Frequently Asked Questions",
+      "subtitle": "Clear, straightforward answers about exploring, selecting, and purchasing granite through Siva Granites.",
+      "items": [
+        {
+          "q": "Where can I explore granite varieties?",
+          "a": "Siva Kumar coordinates with approximately 20–25 granite companies and showrooms in Hosur, giving you access to view a wide range of natural stone varieties, colours, and finishes in one central hub."
+        },
+        {
+          "q": "Do you serve customers outside Hosur?",
+          "a": "Yes. Granite coordination services are available to customers across Tamil Nadu. We coordinate direct transportation from Hosur to your project site, subject to supplier and transport arrangements."
+        },
+        {
+          "q": "Can I request a quotation based on square feet?",
+          "a": "Yes. Customers can share their required area in square feet. Siva Kumar will coordinate with suppliers to obtain competitive, transparent per-square-foot quotations based on your chosen stone and finish."
+        },
+        {
+          "q": "What if I don't know the required square footage?",
+          "a": "If you don't know the exact square footage, you can share room dimensions (length and width) or architectural plans. We assist in understanding the calculations and estimating the required quantity including cutting allowances."
+        },
+        {
+          "q": "Can I compare different granite varieties?",
+          "a": "Yes. Personal assistance is provided to help you explore and compare different varieties in terms of colour consistency, mineral patterns, durability, surface finishes (polished, leather, flamed, honed), and price points."
+        },
+        {
+          "q": "Who arranges transportation?",
+          "a": "Transportation is coordinated based on your delivery location, the supplier's dispatch point, and order volume. We coordinate with reliable logistics providers to ensure safe transport from Hosur to your site."
+        },
+        {
+          "q": "How does the payment process work?",
+          "a": "Payment arrangements depend on the individual supplier and order requirements. The applicable payment terms, advance conditions, and delivery schedules will be explained transparently before you confirm your order."
+        },
+        {
+          "q": "Can I visit granite companies with Siva Kumar?",
+          "a": "Yes. Showroom and yard visits in Hosur can be coordinated based on customer requirements and supplier arrangements, allowing you to inspect actual stone slabs before purchase."
+        }
+      ]
+    },
+    "enquiry": {
+      "badge": "Granite Consultation",
+      "title": "Tell Us Your Granite Requirements",
+      "description": "Share your project requirements and Siva Kumar can coordinate suitable granite options and quotations.",
+      "statusBadge": "Granite Consultation",
+      "statusNotice": "Online quotation requests are active and delivered directly to Siva Kumar.",
+      "privacyNotice": "Privacy & Security Note: SIVA INSURANCES & GRANITE SERVICES respects your privacy. We do not request Aadhaar numbers, bank account details, passwords, or document uploads on this website.",
+      "nameLabel": "Customer Name",
+      "namePlaceholder": "Enter your full name",
+      "phoneLabel": "Mobile Number",
+      "phonePlaceholder": "Enter 10-digit mobile number",
+      "districtLabel": "District / Town",
+      "districtPlaceholder": "e.g., Hosur, Chennai, Salem, Coimbatore, etc.",
+      "colourLabel": "Granite Colour Preference",
+      "colourPlaceholder": "e.g., Black, Grey, White, Brown, Red, etc. (Optional)",
+      "finishLabel": "Preferred Finish",
+      "finishPlaceholder": "Select preferred finish (Optional)",
+      "finishOptions": [
+        "Not sure / Need recommendation",
+        "Polished (High gloss mirror finish)",
+        "Leather (Matte textured tactile finish)",
+        "Flamed (Rough non-slip outdoor finish)",
+        "Honed (Smooth satin matte finish)"
+      ],
+      "areaLabel": "Approximate Required Area (sq. ft.)",
+      "areaPlaceholder": "e.g., 500 (Optional)",
+      "measurementLabel": "Measurement Assistance",
+      "measurementOptions": [
+        "I already know the required square footage",
+        "I need help understanding the measurements",
+        "Not decided yet"
+      ],
+      "usageLabel": "Where will the granite be used?",
+      "usagePlaceholder": "Select intended usage area (Optional)",
+      "usageOptions": [
+        "Not specified / Multiple areas",
+        "Flooring",
+        "Kitchen Countertop",
+        "Staircase Steps & Risers",
+        "Wall Cladding / Elevation",
+        "Bathroom / Vanity",
+        "Outdoor / Paving"
+      ],
+      "messageLabel": "Additional Requirements",
+      "messagePlaceholder": "Share any additional specifications, site details, or delivery requirements...",
+      "submitBtn": "Request Granite Quotation",
+      "submitBtnDisabled": "Submitting Quotation Request...",
+      "submitting": "Submitting request...",
+      "submissionSuccess": "Thank you! Your granite quotation request has been submitted successfully. Siva Kumar will coordinate and respond shortly.",
+      "submissionError": "Unable to submit your granite quotation request. Please check your connection and try again.",
+      "networkError": "Network error occurred. Please verify your internet connection and try again.",
+      "validationError": "Please complete all required fields (Name, Mobile Number, District, and Measurement Assistance).",
+      "tryAgain": "Try Again",
+      "submitAnother": "Submit Another Request"
+    },
+    "cta": {
+      "badge": "Get in Touch",
+      "heading": "Ready to Explore Granite Options?",
+      "description": "Share your granite requirements and get assistance with selection, quotations and purchase coordination.",
+      "btnQuotation": "Request a Granite Quotation",
+      "btnContact": "Contact SIVA INSURANCES & GRANITE SERVICES",
+      "btnCatalogue": "Explore Granite Catalogue"
+    },
+    "cataloguePage": {
+      "badge": "Visual Exploration Catalogue",
+      "heading": "Explore Granite Varieties",
+      "description": "Explore different granite colours, natural patterns and surface finishes. Siva Granites helps customers coordinate with different granite companies and showrooms in Hosur to find suitable options.",
+      "introPoints": [
+        {
+          "title": "Personal Selection Assistance",
+          "desc": "Direct consultation with Siva Kumar to understand your aesthetic preferences and space requirements."
+        },
+        {
+          "title": "Multiple Supplier Options",
+          "desc": "Access 20–25 granite companies and showrooms in Hosur rather than being limited to a single supplier inventory."
+        },
+        {
+          "title": "Quotations Based on Sq. Ft.",
+          "desc": "Clear, verified per-square-foot quotations based on your dimensions, selected thickness, and finish."
+        },
+        {
+          "title": "Service Across Tamil Nadu",
+          "desc": "Safe vehicle transportation and delivery coordination directly from Hosur to construction sites across Tamil Nadu."
+        }
+      ],
+      "disclaimerTitle": "Important Catalogue Notice",
+      "disclaimer": "Images are representative examples of granite appearances. Actual colours, patterns, finishes and availability may vary between suppliers and individual stone batches. Please confirm the final selection with the supplier.",
+      "finishesSection": {
+        "badge": "Surface Treatments",
+        "heading": "Understanding Surface Finishes",
+        "subtitle": "Natural granite can be crafted with distinct surface treatments, each offering different visual sheen, tactile textures, and slip resistance.",
+        "note": "Note: Not every granite variety is available in every finish. Specific finish availability depends on natural stone density and supplier processing lines.",
+        "items": [
+          {
+            "id": "polished",
+            "name": "Polished Finish",
+            "tag": "High Gloss & Reflective",
+            "desc": "Diamond-polished to a high mirror shine that accentuates deep crystal reflections and natural stone color depth.",
+            "usage": "Recommended for kitchen countertops, dining tables, interior flooring, and luxury feature walls."
+          },
+          {
+            "id": "leather",
+            "name": "Leather / Antique Finish",
+            "tag": "Tactile & Matte Textured",
+            "desc": "Brushed with diamond abrasive brushes to produce a subtle undulating, leather-like texture that conceals smudges and fingerprints.",
+            "usage": "Popular for modern kitchen islands, bathroom vanities, bar counters, and low-glare accent spaces."
+          },
+          {
+            "id": "flamed",
+            "name": "Flamed Finish",
+            "tag": "Rough & Non-Slip",
+            "desc": "Heat-treated with intense torches to fracture surface quartz crystals, creating a rough, weathered, non-slip textured face.",
+            "usage": "Essential for exterior paving, outdoor staircases, ramps, swimming pool decks, and garden pathways."
+          },
+          {
+            "id": "honed",
+            "name": "Honed Finish",
+            "tag": "Smooth Satin Matte",
+            "desc": "Precision-ground to a flat, velvety satin matte surface without high-gloss reflections, offering subtle modern sophistication.",
+            "usage": "Well-suited for high-traffic commercial foyers, contemporary residential floors, and minimalist wall cladding."
+          }
+        ]
+      },
+      "filters": {
+        "title": "Interactive Catalogue Explorer",
+        "colourLabel": "Filter by Colour",
+        "finishLabel": "Filter by Finish",
+        "allColours": "All Colours",
+        "allFinishes": "All Finishes",
+        "reset": "Reset Filters",
+        "showing": "Showing",
+        "of": "of",
+        "styles": "granite styles",
+        "activeFilters": "Active Filters:",
+        "noResults": "No granite styles found matching your selected filters.",
+        "noResultsHint": "Try resetting your filters or selecting a different colour or finish combination.",
+        "colours": {
+          "all": "All Colours",
+          "black": "Black",
+          "white": "White & Light",
+          "grey": "Grey",
+          "brown": "Brown",
+          "red": "Red / Natural"
+        },
+        "finishes": {
+          "all": "All Finishes",
+          "polished": "Polished",
+          "leather": "Leather",
+          "flamed": "Flamed",
+          "honed": "Honed"
+        }
+      },
+      "cards": {
+        "badge": "Representative Style",
+        "enquireBtn": "Request Quotation",
+        "availableFinishes": "Available Finishes:",
+        "colourTone": "Tone:",
+        "pattern": "Natural Pattern:",
+        "usage": "Suggested Usage:",
+        "finishNote": "Finish Note:"
+      },
+      "quoteSection": {
+        "badge": "Quotation Coordination",
+        "heading": "Looking for a Granite Quotation?",
+        "subtitle": "Tell us about your project requirements and Siva Kumar will coordinate verified square-foot pricing from Hosur suppliers.",
+        "description": "Whether you already know your required area in square feet or need assistance calculating room measurements and wastage allowances, Siva Kumar coordinates transparent per-sq-ft quotations directly from Hosur showrooms.",
+        "points": [
+          "Share your exact square footage or room dimensions",
+          "Obtain verified per-square-foot quotations from multiple Hosur suppliers",
+          "Coordinate delivery directly to your site across Tamil Nadu"
+        ],
+        "ctaBtn": "Request a Granite Quotation",
+        "backToOverview": "View Siva Granites Overview"
+      }
+    }
+  },
+  "experience": {
+    "badge": "Professional Experience",
+    "stat": "~18",
+    "statUnit": "Years",
+    "title": "Approximately 18 Years of Combined Professional Experience",
+    "description": "Bringing together experience in insurance services, customer relationships and granite selection and purchase coordination.",
+    "insuranceHighlight": "Grounded in approximately 18 years of combined professional experience across customer service, business coordination, and insurance assistance.",
+    "graniteHighlight": "Backed by approximately 18 years of combined professional experience in customer coordination, supplier management, and business services.",
+    "aboutSectionTitle": "Experience & Professional Journey",
+    "aboutSectionSubtitle": "A proven commitment to client guidance, transparent coordination, and long-term customer relationships.",
+    "journeyIntro": "Approximately 18 years of combined professional experience across insurance services, customer relationships and granite selection and purchase coordination.",
+    "journeyP1": "Approximately 18 years of combined professional experience across insurance services, customer relationships and granite selection and purchase coordination forms the foundation of Siva Kumar's direct client service approach.",
+    "journeyP2": "His combined background bridges two essential service areas: helping families and businesses choose suitable insurance coverage through official insurer portals, and guiding clients through Hosur's granite showrooms for material selection and site delivery.",
+    "journeyP3": "Every customer enquiry is handled directly by Siva Kumar, ensuring consistent attention to detail without intermediaries, third-party call centers, or conflicting claims."
+  }
+}
