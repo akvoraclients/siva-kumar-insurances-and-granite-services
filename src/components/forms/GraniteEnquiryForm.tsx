@@ -1,11 +1,11 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { SupportedLanguage } from '@/types';
 import { FORMSPREE_ENDPOINT } from '@/lib/constants';
 import { getDictionary } from '@/lib/dictionary';
 import { Layers, Send, AlertCircle, Loader2 } from 'lucide-react';
-import { FormSuccess } from './FormSuccess';
 
 interface GraniteEnquiryFormProps {
   lang: SupportedLanguage;
@@ -14,6 +14,7 @@ interface GraniteEnquiryFormProps {
 type SubmissionStatus = 'idle' | 'loading' | 'success' | 'error';
 
 export const GraniteEnquiryForm: React.FC<GraniteEnquiryFormProps> = ({ lang }) => {
+  const router = useRouter();
   const dict = getDictionary(lang);
   const enquiryText = dict.granites?.enquiry || {};
   const commonText = dict.common || {};
@@ -93,6 +94,7 @@ export const GraniteEnquiryForm: React.FC<GraniteEnquiryFormProps> = ({ lang }) 
       setStatus('success');
       setErrorMessage(null);
       setFormData(initialFormState);
+      router.push(`/${lang}/success`);
       return;
     }
 
@@ -151,6 +153,8 @@ export const GraniteEnquiryForm: React.FC<GraniteEnquiryFormProps> = ({ lang }) 
         setErrorMessage(null);
         // Reset form ONLY on confirmed successful submission
         setFormData(initialFormState);
+        // Redirect to dedicated localized success page
+        router.push(`/${lang}/success`);
       } else {
         let errorDetail = '';
         try {
@@ -189,15 +193,6 @@ export const GraniteEnquiryForm: React.FC<GraniteEnquiryFormProps> = ({ lang }) 
       );
     }
   };
-
-  const handleResetStatus = () => {
-    setStatus('idle');
-    setErrorMessage(null);
-  };
-
-  if (status === 'success') {
-    return <FormSuccess lang={lang} onReset={handleResetStatus} />;
-  }
 
   return (
     <div className="bg-white rounded-3xl border border-slate-200 p-4 sm:p-8 lg:p-10 shadow-xs">

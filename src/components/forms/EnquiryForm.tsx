@@ -1,11 +1,11 @@
 'use client';
 
 import React, { useState, useRef } from 'react';
+import { useRouter } from 'next/navigation';
 import { SupportedLanguage } from '@/types';
 import { FORMSPREE_ENDPOINT } from '@/lib/constants';
 import { getDictionary } from '@/lib/dictionary';
 import { ShieldAlert, Send, AlertCircle, Loader2 } from 'lucide-react';
-import { FormSuccess } from './FormSuccess';
 
 interface EnquiryFormProps {
   lang: SupportedLanguage;
@@ -22,6 +22,7 @@ export const EnquiryForm: React.FC<EnquiryFormProps> = ({
   lang,
   defaultCategory = 'general',
 }) => {
+  const router = useRouter();
   const dict = getDictionary(lang);
   const contactText = dict.contact || {};
   const commonText = dict.common || {};
@@ -47,6 +48,7 @@ export const EnquiryForm: React.FC<EnquiryFormProps> = ({
       setStatus('success');
       setErrorMessage(null);
       form.reset();
+      router.push(`/${lang}/success`);
       return;
     }
 
@@ -106,6 +108,8 @@ export const EnquiryForm: React.FC<EnquiryFormProps> = ({
         setErrorMessage(null);
         // Reset form ONLY on confirmed successful submission
         form.reset();
+        // Redirect to dedicated localized success page
+        router.push(`/${lang}/success`);
       } else {
         let errorDetail = '';
         try {
@@ -144,15 +148,6 @@ export const EnquiryForm: React.FC<EnquiryFormProps> = ({
       );
     }
   };
-
-  const handleResetStatus = () => {
-    setStatus('idle');
-    setErrorMessage(null);
-  };
-
-  if (status === 'success') {
-    return <FormSuccess lang={lang} onReset={handleResetStatus} />;
-  }
 
   return (
     <div className="bg-white rounded-2xl border border-slate-200 p-4 sm:p-6 md:p-8 shadow-xs">

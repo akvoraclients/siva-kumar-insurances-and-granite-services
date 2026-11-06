@@ -439,7 +439,7 @@ export default async function HomePage({ params }: PageProps) {
                 {/* Visual header */}
                 <div className="relative h-44 rounded-2xl overflow-hidden mb-6 border border-slate-100">
                   <Image
-                    src="/images/granite-hero.svg"
+                    src="/images/granite-hero.png"
                     alt="Hosur granite varieties, finishes and delivery coordination across Tamil Nadu"
                     width={600}
                     height={400}

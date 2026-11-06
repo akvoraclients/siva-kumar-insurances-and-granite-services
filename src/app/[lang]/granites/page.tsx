@@ -168,28 +168,23 @@ export default async function GranitesPage({ params }: PageProps) {
               </p>
             </div>
 
-            {/* Right Column: Hero Visual Graphic */}
-            <div className="lg:col-span-5 flex flex-col items-center">
-              <div className="relative w-full max-w-md aspect-4/3 rounded-3xl overflow-hidden shadow-md border border-brand-sandstone-200 bg-brand-charcoal">
+            {/* Right Column: Prominent Granite Hero Image Showcase */}
+            <div className="lg:col-span-5 flex flex-col items-center justify-center w-full mt-4 lg:mt-0">
+              <div className="relative w-full max-w-lg aspect-[4/3] sm:aspect-[16/11] lg:aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl border border-brand-sandstone-200/90 bg-brand-charcoal group">
                 <Image
-                  src="/images/granite-hero.svg"
+                  src="/images/granite-hero.png"
                   alt={
                     lang === 'ta'
-                      ? 'ஓசூர் கிரானைட் கற்களின் தேர்வு மற்றும் வடிவமைப்பு மாதிரி'
-                      : 'Hosur granite stone selection and finish showcase'
+                      ? 'ஓசூர் இயற்கை கிரானைட் வகைகள் மற்றும் மேற்பரப்பு ஃபினிஷிங்'
+                      : 'Hosur natural granite slabs with diverse finishes and textures'
                   }
                   fill
                   priority
                   unoptimized
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 480px"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 520px"
                 />
               </div>
-              <p className="text-[11px] text-slate-500 text-center mt-3 max-w-xs leading-tight">
-                {lang === 'ta'
-                  ? 'ஓசூரின் இயற்கை கிரானைட் கற்கள் மற்றும் பல்வேறு மேற்பரப்பு ஃபினிஷிங்'
-                  : 'Hosur natural granite slabs with diverse finishes and textures'}
-              </p>
             </div>
           </div>
         </Container>

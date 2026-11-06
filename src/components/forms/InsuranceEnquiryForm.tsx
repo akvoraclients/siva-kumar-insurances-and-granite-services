@@ -1,11 +1,11 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { SupportedLanguage } from '@/types';
 import { FORMSPREE_ENDPOINT } from '@/lib/constants';
 import { getDictionary } from '@/lib/dictionary';
 import { Shield, Send, AlertCircle, Loader2 } from 'lucide-react';
-import { FormSuccess } from './FormSuccess';
 
 interface InsuranceEnquiryFormProps {
   lang: SupportedLanguage;
@@ -14,6 +14,7 @@ interface InsuranceEnquiryFormProps {
 type SubmissionStatus = 'idle' | 'loading' | 'success' | 'error';
 
 export const InsuranceEnquiryForm: React.FC<InsuranceEnquiryFormProps> = ({ lang }) => {
+  const router = useRouter();
   const dict = getDictionary(lang);
   const enquiryText = dict.insurance?.enquiry || {};
   const commonText = dict.common || {};
@@ -69,6 +70,7 @@ export const InsuranceEnquiryForm: React.FC<InsuranceEnquiryFormProps> = ({ lang
       setStatus('success');
       setErrorMessage(null);
       setFormData(initialFormState);
+      router.push(`/${lang}/success`);
       return;
     }
 
@@ -126,6 +128,8 @@ export const InsuranceEnquiryForm: React.FC<InsuranceEnquiryFormProps> = ({ lang
         setErrorMessage(null);
         // Reset form ONLY on confirmed successful submission
         setFormData(initialFormState);
+        // Redirect to dedicated localized success page
+        router.push(`/${lang}/success`);
       } else {
         let errorDetail = '';
         try {
@@ -164,15 +168,6 @@ export const InsuranceEnquiryForm: React.FC<InsuranceEnquiryFormProps> = ({ lang
       );
     }
   };
-
-  const handleResetStatus = () => {
-    setStatus('idle');
-    setErrorMessage(null);
-  };
-
-  if (status === 'success') {
-    return <FormSuccess lang={lang} onReset={handleResetStatus} />;
-  }
 
   return (
     <div className="bg-white rounded-3xl border border-slate-200 p-4 sm:p-8 lg:p-10 shadow-xs">
