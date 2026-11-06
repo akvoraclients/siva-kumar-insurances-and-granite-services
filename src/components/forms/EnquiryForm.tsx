@@ -4,7 +4,8 @@ import React, { useState, useRef } from 'react';
 import { SupportedLanguage } from '@/types';
 import { FORMSPREE_ENDPOINT } from '@/lib/constants';
 import { getDictionary } from '@/lib/dictionary';
-import { ShieldAlert, Send, CheckCircle2, AlertCircle, Loader2, RotateCcw } from 'lucide-react';
+import { ShieldAlert, Send, AlertCircle, Loader2 } from 'lucide-react';
+import { FormSuccess } from './FormSuccess';
 
 interface EnquiryFormProps {
   lang: SupportedLanguage;
@@ -149,6 +150,10 @@ export const EnquiryForm: React.FC<EnquiryFormProps> = ({
     setErrorMessage(null);
   };
 
+  if (status === 'success') {
+    return <FormSuccess lang={lang} onReset={handleResetStatus} />;
+  }
+
   return (
     <div className="bg-white rounded-2xl border border-slate-200 p-4 sm:p-6 md:p-8 shadow-xs">
       <div className="mb-6">
@@ -173,43 +178,6 @@ export const EnquiryForm: React.FC<EnquiryFormProps> = ({
             : 'Please do not enter Aadhaar numbers, health records, policy document scans, or sensitive data in this enquiry form.'}
         </p>
       </div>
-
-      {/* Success Notification */}
-      {status === 'success' && (
-        <div
-          role="status"
-          aria-live="polite"
-          className="mb-6 p-5 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-950 flex flex-col gap-3"
-        >
-          <div className="flex items-start gap-3">
-            <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" aria-hidden="true" />
-            <div className="text-xs leading-relaxed">
-              <p className="font-bold text-sm text-emerald-900 mb-1">
-                {lang === 'ta' ? 'விசாரணை வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது!' : 'Enquiry Submitted Successfully!'}
-              </p>
-              <p>
-                {contactText.submissionSuccess ||
-                  commonText.submissionSuccess ||
-                  (lang === 'ta'
-                    ? 'நன்றி! உங்கள் விசாரணை பெறப்பட்டது. சிவகுமார் அவர்கள் விரைவில் உங்களைத் தொடர்புகொள்வார்.'
-                    : 'Thank you! Your enquiry has been received. Siva Kumar will contact you shortly.')}
-              </p>
-            </div>
-          </div>
-          <button
-            type="button"
-            onClick={handleResetStatus}
-            className="self-start inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-xs font-semibold hover:bg-emerald-700 transition-colors cursor-pointer"
-          >
-            <RotateCcw className="w-3.5 h-3.5" aria-hidden="true" />
-            <span>
-              {contactText.submitAnother ||
-                commonText.submitAnother ||
-                (lang === 'ta' ? 'மற்றொரு விசாரணையை சமர்ப்பிக்க' : 'Submit Another Enquiry')}
-            </span>
-          </button>
-        </div>
-      )}
 
       {/* Error Notification */}
       {status === 'error' && errorMessage && (
@@ -347,21 +315,19 @@ export const EnquiryForm: React.FC<EnquiryFormProps> = ({
         <button
           type="submit"
           disabled={status === 'loading'}
-          className="w-full py-3 px-4 rounded-xl bg-brand-navy text-white font-semibold text-sm hover:bg-brand-navy-900 transition-colors flex items-center justify-center gap-2 focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 disabled:opacity-60 disabled:cursor-not-allowed cursor-pointer"
+          className="w-full py-3 px-4 rounded-xl bg-brand-navy text-white font-semibold text-sm hover:bg-brand-navy-900 transition-all flex items-center justify-center gap-2 focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 disabled:opacity-60 disabled:cursor-not-allowed cursor-pointer"
         >
           {status === 'loading' ? (
             <>
               <Loader2 className="w-4 h-4 animate-spin text-brand-teal" aria-hidden="true" />
               <span>
-                {contactText.submitting ||
-                  commonText.submitting ||
-                  (lang === 'ta' ? 'சமர்ப்பிக்கப்படுகிறது...' : 'Submitting...')}
+                {lang === 'ta' ? 'அனுப்பப்படுகிறது...' : 'Sending...'}
               </span>
             </>
           ) : (
             <>
               <Send className="w-4 h-4 text-brand-teal" aria-hidden="true" />
-              <span>{lang === 'ta' ? 'விசாரணையை சமர்ப்பிக்க' : 'Submit Enquiry'}</span>
+              <span>{lang === 'ta' ? 'விசாரணையை சமர்ப்பிக்க' : 'Submit Query'}</span>
             </>
           )}
         </button>

@@ -4,7 +4,8 @@ import React, { useState, useEffect } from 'react';
 import { SupportedLanguage } from '@/types';
 import { FORMSPREE_ENDPOINT } from '@/lib/constants';
 import { getDictionary } from '@/lib/dictionary';
-import { Shield, Send, CheckCircle2, AlertCircle, Loader2, RotateCcw } from 'lucide-react';
+import { Shield, Send, AlertCircle, Loader2 } from 'lucide-react';
+import { FormSuccess } from './FormSuccess';
 
 interface InsuranceEnquiryFormProps {
   lang: SupportedLanguage;
@@ -169,6 +170,10 @@ export const InsuranceEnquiryForm: React.FC<InsuranceEnquiryFormProps> = ({ lang
     setErrorMessage(null);
   };
 
+  if (status === 'success') {
+    return <FormSuccess lang={lang} onReset={handleResetStatus} />;
+  }
+
   return (
     <div className="bg-white rounded-3xl border border-slate-200 p-4 sm:p-8 lg:p-10 shadow-xs">
       <div className="mb-6">
@@ -202,43 +207,6 @@ export const InsuranceEnquiryForm: React.FC<InsuranceEnquiryFormProps> = ({ lang
               : 'SIVA INSURANCES & GRANITE SERVICES respects your privacy. We do not request Aadhaar numbers, bank passwords, medical records, or sensitive document uploads on this website.')}
         </p>
       </div>
-
-      {/* Success Notification */}
-      {status === 'success' && (
-        <div
-          role="status"
-          aria-live="polite"
-          className="mb-6 p-5 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-950 flex flex-col gap-3"
-        >
-          <div className="flex items-start gap-3">
-            <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" aria-hidden="true" />
-            <div className="text-xs leading-relaxed">
-              <p className="font-bold text-sm text-emerald-900 mb-1">
-                {lang === 'ta' ? 'காப்பீட்டு விசாரணை பெறப்பட்டது!' : 'Insurance Enquiry Submitted!'}
-              </p>
-              <p>
-                {enquiryText.submissionSuccess ||
-                  commonText.submissionSuccess ||
-                  (lang === 'ta'
-                    ? 'நன்றி! உங்கள் காப்பீட்டு விசாரணை வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது. சிவகுமார் அவர்கள் உங்களை நேரடியாகத் தொடர்புகொள்வார்.'
-                    : 'Thank you! Your insurance enquiry has been submitted successfully. Siva Kumar will contact you directly.')}
-              </p>
-            </div>
-          </div>
-          <button
-            type="button"
-            onClick={handleResetStatus}
-            className="self-start inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-xs font-semibold hover:bg-emerald-700 transition-colors cursor-pointer"
-          >
-            <RotateCcw className="w-3.5 h-3.5" aria-hidden="true" />
-            <span>
-              {enquiryText.submitAnother ||
-                commonText.submitAnother ||
-                (lang === 'ta' ? 'மற்றொரு விசாரணையை சமர்ப்பிக்க' : 'Submit Another Enquiry')}
-            </span>
-          </button>
-        </div>
-      )}
 
       {/* Error Notification */}
       {status === 'error' && errorMessage && (
@@ -431,9 +399,7 @@ export const InsuranceEnquiryForm: React.FC<InsuranceEnquiryFormProps> = ({ lang
               <>
                 <Loader2 className="w-4 h-4 animate-spin text-brand-teal" aria-hidden="true" />
                 <span>
-                  {enquiryText.submitting ||
-                    commonText.submitting ||
-                    (lang === 'ta' ? 'சமர்ப்பிக்கப்படுகிறது...' : 'Submitting...')}
+                  {lang === 'ta' ? 'அனுப்பப்படுகிறது...' : 'Sending...'}
                 </span>
               </>
             ) : (
@@ -441,7 +407,7 @@ export const InsuranceEnquiryForm: React.FC<InsuranceEnquiryFormProps> = ({ lang
                 <Send className="w-4 h-4 text-brand-teal" aria-hidden="true" />
                 <span>
                   {enquiryText.submitBtn ||
-                    (lang === 'ta' ? 'காப்பீட்டு விசாரணையை சமர்ப்பிக்கவும்' : 'Submit Insurance Enquiry')}
+                    (lang === 'ta' ? 'காப்பீட்டு விசாரணையை சமர்ப்பிக்கவும்' : 'Submit Query')}
                 </span>
               </>
             )}

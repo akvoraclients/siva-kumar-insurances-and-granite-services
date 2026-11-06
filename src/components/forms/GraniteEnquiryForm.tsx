@@ -4,7 +4,8 @@ import React, { useState, useEffect } from 'react';
 import { SupportedLanguage } from '@/types';
 import { FORMSPREE_ENDPOINT } from '@/lib/constants';
 import { getDictionary } from '@/lib/dictionary';
-import { Layers, Send, CheckCircle2, AlertCircle, Loader2, RotateCcw } from 'lucide-react';
+import { Layers, Send, AlertCircle, Loader2 } from 'lucide-react';
+import { FormSuccess } from './FormSuccess';
 
 interface GraniteEnquiryFormProps {
   lang: SupportedLanguage;
@@ -194,6 +195,10 @@ export const GraniteEnquiryForm: React.FC<GraniteEnquiryFormProps> = ({ lang }) 
     setErrorMessage(null);
   };
 
+  if (status === 'success') {
+    return <FormSuccess lang={lang} onReset={handleResetStatus} />;
+  }
+
   return (
     <div className="bg-white rounded-3xl border border-slate-200 p-4 sm:p-8 lg:p-10 shadow-xs">
       <div className="mb-6">
@@ -230,43 +235,6 @@ export const GraniteEnquiryForm: React.FC<GraniteEnquiryFormProps> = ({ lang }) 
               : 'SIVA INSURANCES & GRANITE SERVICES respects your privacy. We do not request Aadhaar numbers, bank account details, passwords, or document uploads on this website.')}
         </p>
       </div>
-
-      {/* Success Notification */}
-      {status === 'success' && (
-        <div
-          role="status"
-          aria-live="polite"
-          className="mb-6 p-5 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-950 flex flex-col gap-3"
-        >
-          <div className="flex items-start gap-3">
-            <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" aria-hidden="true" />
-            <div className="text-xs leading-relaxed">
-              <p className="font-bold text-sm text-emerald-900 mb-1">
-                {lang === 'ta' ? 'விலைப்பட்டியல் கோரிக்கை பெறப்பட்டது!' : 'Quotation Request Submitted!'}
-              </p>
-              <p>
-                {enquiryText.submissionSuccess ||
-                  commonText.submissionSuccess ||
-                  (lang === 'ta'
-                    ? 'நன்றி! உங்கள் கிரானைட் விலைப்பட்டியல் கோரிக்கை வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது. சிவகுமார் அவர்கள் விரைவில் ஒருங்கிணைத்து பதிலளிப்பார்.'
-                    : 'Thank you! Your granite quotation request has been submitted successfully. Siva Kumar will coordinate and respond shortly.')}
-              </p>
-            </div>
-          </div>
-          <button
-            type="button"
-            onClick={handleResetStatus}
-            className="self-start inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-xs font-semibold hover:bg-emerald-700 transition-colors cursor-pointer"
-          >
-            <RotateCcw className="w-3.5 h-3.5" aria-hidden="true" />
-            <span>
-              {enquiryText.submitAnother ||
-                commonText.submitAnother ||
-                (lang === 'ta' ? 'மற்றொரு கோரிக்கையை சமர்ப்பிக்க' : 'Submit Another Request')}
-            </span>
-          </button>
-        </div>
-      )}
 
       {/* Error Notification */}
       {status === 'error' && errorMessage && (
@@ -554,9 +522,7 @@ export const GraniteEnquiryForm: React.FC<GraniteEnquiryFormProps> = ({ lang }) 
               <>
                 <Loader2 className="w-4 h-4 animate-spin text-brand-sandstone" aria-hidden="true" />
                 <span>
-                  {enquiryText.submitting ||
-                    commonText.submitting ||
-                    (lang === 'ta' ? 'சமர்ப்பிக்கப்படுகிறது...' : 'Submitting...')}
+                  {lang === 'ta' ? 'அனுப்பப்படுகிறது...' : 'Sending...'}
                 </span>
               </>
             ) : (
@@ -564,7 +530,7 @@ export const GraniteEnquiryForm: React.FC<GraniteEnquiryFormProps> = ({ lang }) 
                 <Send className="w-4 h-4 text-brand-sandstone" aria-hidden="true" />
                 <span>
                   {enquiryText.submitBtn ||
-                    (lang === 'ta' ? 'கிரானைட் விலைப்பட்டியல் கோர' : 'Request Granite Quotation')}
+                    (lang === 'ta' ? 'கிரானைட் விலைப்பட்டியல் கோர' : 'Submit Query')}
                 </span>
               </>
             )}
